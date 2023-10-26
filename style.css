@@ -1,3 +1,7 @@
+@font-face {
+       font-family: kajiro ;
+       src: url(Kajiro\ Bold.woff2);
+}
 * {
        padding: 0%;
        margin: 0%;
@@ -127,7 +131,7 @@ body {
         top: 100%;
         left: 0;
        color: rgb(255, 255, 255);
-       font-family: "kajiro";
+       font-family: kajiro;
        font-size: 10vw;
        font-weight: 200;
        line-height: .9;
@@ -136,7 +140,7 @@ body {
 
 .hero-left button {
        pointer-events: all; 
-       font-family: "kajiro";
+       font-family: kajiro;
        font-size: 4vw;
        padding: .8vw 3vw;
        margin-top: 2vw;
